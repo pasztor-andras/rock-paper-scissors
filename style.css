@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsla(214, 97%, 73%, 0.274);
+}
+
+#title {
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+#game-container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#buttons-container {
+    margin: 10px;
+}
+
+button {
+    text-transform: uppercase;
+    min-height: 100px;
+    min-width: 100px;
+    padding: 10px;
+    background-size: cover;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: black;
+}
+
+#rock {
+    background-image: url("rock.png");
+}
+#paper {
+    background-image: url("paper.png");
+}
+#scissors {
+    background-image: url("scissor.png");
+}
+
+#played-rounds >h2 {
+    /* border: 1px solid green; */
+    margin-bottom: 20px;
+}
+
